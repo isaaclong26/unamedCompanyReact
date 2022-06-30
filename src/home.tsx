@@ -2,12 +2,25 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 import {fadeIn} from "react-animations"
 
-
+import Login from "./login"
 const fadeInAni = keyframes`${fadeIn}`;
 
 const HomeDiv = styled.div`
-animation: 1s ${fadeInAni};
 
+
+
+
+`
+const Page1 = styled.div`
+background: linear-gradient(to top, #0077B6, #caf0f8);
+
+`
+const Page2 = styled.div`
+background: linear-gradient(180deg, hsla(201, 100%, 36%, 1) 0%, hsla(235, 100%, 12%, 1) 100%);
+
+`
+const Page3 = styled.div`
+background: linear-gradient(180deg, hsla(235, 100%, 12%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
 
 `
 // width: 300px;
@@ -31,7 +44,21 @@ const Home = ()=>{
 
     return(
         <HomeDiv>
-            <Zinger>PEAC</Zinger>
+            <Page1 className="page container">
+                <div className="row">
+
+                    <Login></Login>
+
+                </div>
+            </Page1>
+
+            <Page2 className="page">
+
+            </Page2>
+
+            <Page3 className="page">
+
+            </Page3>
         </HomeDiv>
     )
 }

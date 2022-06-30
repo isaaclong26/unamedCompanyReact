@@ -77,7 +77,6 @@ margin: 15px 0;
 
 
     return(
-        <div className="master container-fluid">
         
        
         <NavContFixed id="fixed">
@@ -98,21 +97,7 @@ margin: 15px 0;
 
 
 
-{homeVis && 
-    <div className="row">
-      <Home></Home>
-    </div>
-}
-  {/*
-{entriesVis &&
-    <div className='row'>
 
-    </div>
-   
- }         
- </div>
-         */}
-    </div>
     )
 }
 

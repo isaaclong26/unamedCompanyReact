@@ -44,16 +44,11 @@
 }
 
 
-.master{
+.page{
   width: 100vw;
   height: 100vh;
   padding:10px;
-  /* background: #00b4d8;
-  background: -webkit-linear-gradient(left, #00b4d8, #caf0f8);
-  background: -moz-linear-gradient(left, #00b4d8, #caf0f8);
-  background: -ms-linear-gradient(left, #00b4d8, #caf0f8);
-  background: -o-linear-gradient(left, #00b4d8, #caf0f8); */
-  background: linear-gradient(to top, #0077B6, #caf0f8);
+  
 
 
 }
